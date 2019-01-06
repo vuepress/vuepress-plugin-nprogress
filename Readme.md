@@ -1,3 +1,5 @@
+> [Deprecated] This plugin has been maintained as a Vuepress official plugin (@vuepress/plugin-nprogress) since https://github.com/vuejs/vuepress/commit/25db1ba4ae5a023669fdb48e6d13f6580e09ec99
+
 # Vuepress Plugin - nprogress
 
 > This plugin is for vuepress `1.x`
