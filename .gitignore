@@ -1,5 +1,5 @@
-# Log files
-*.log
+.temp/
+docs-dist/
 
-# Node modules
 node_modules/
+*.log

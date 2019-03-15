@@ -1,0 +1,9 @@
+.temp/
+docs/
+docs-dist/
+node_modules/
+.editorconfig
+.eslint*
+.git*
+yarn.lock
+*.log
