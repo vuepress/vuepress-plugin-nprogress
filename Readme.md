@@ -16,7 +16,7 @@ npm install vuepress-plugin-nprogress
 
 Add `vuepress-plugin-nprogress` in your __site__ or __theme__ config file.
 
-> See [official docs](https://vuepress.vuejs.org/plugin/using-a-plugin.html)
+> See [official docs](https://v1.vuepress.vuejs.org/plugin/using-a-plugin.html)
 
 ```js
 // .vuepress/config.js
@@ -32,9 +32,9 @@ module.exports = {
 
 ### Custom color
 
-Set `$nprogressColor` in your __site__ or __theme__ `palette.styl` file to change the color of the progress bar (default is `$accentColor`).
+Set `$nprogressColor` in your __site__ or __theme__ `palette.styl` file to change the color of the progress bar. If not set, the color is set to `$accentColor` of Vuepress.
 
-> See [official docs](https://vuepress.vuejs.org/config/#palette-styl)
+> See [official docs](https://v1.vuepress.vuejs.org/config/#palette-styl)
 
 ```stylus
 // .vuepress/styles/palette.styl
@@ -42,4 +42,7 @@ Set `$nprogressColor` in your __site__ or __theme__ `palette.styl` file to chang
 // .vuepress/theme/styles/palette.styl
 
 $nprogressColor = red
+
+// by default:
+// $nprogressColor ?= $accentColor
 ```
