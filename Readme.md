@@ -1,18 +1,12 @@
-> [Deprecated] This plugin has been maintained as a Vuepress official plugin (@vuepress/plugin-nprogress) since https://github.com/vuejs/vuepress/commit/25db1ba4ae5a023669fdb48e6d13f6580e09ec99
-
 # Vuepress Plugin - nprogress
 
-> This plugin is for vuepress `1.x`
+Use [nprogress](https://github.com/rstacruz/nprogress) in Vuepress.
 
-Use [nprogress](https://github.com/rstacruz/nprogress) in Vuepress's custom theme quickly.
-
-This plugin is extracted from vuepress's default theme.
+This plugin will show progress bar on the top when navigating to another page.
 
 ## Installation
 
 ```sh
-yarn add vuepress-plugin-nprogress
-# or
 npm install vuepress-plugin-nprogress
 ```
 
@@ -38,7 +32,7 @@ module.exports = {
 
 ### Custom color
 
-Set `$nprogressColor` in your __site__ or __theme__ `palette.styl` file to change the color of the progress bar (default is `#3eaf7c`).
+Set `$nprogressColor` in your __site__ or __theme__ `palette.styl` file to change the color of the progress bar (default is `$accentColor`).
 
 > See [official docs](https://vuepress.vuejs.org/config/#palette-styl)
 
