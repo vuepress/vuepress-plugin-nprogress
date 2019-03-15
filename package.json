@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/meteorlxy/vuepress-plugin-nprogress/issues"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --fix --ext .js,.vue ."
   },
@@ -33,8 +33,7 @@
     ]
   },
   "dependencies": {
-    "nprogress": "^0.2.0",
-    "vue": "^2.5.17"
+    "nprogress": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
@@ -47,6 +46,6 @@
     "lint-staged": "^8.0.4"
   },
   "peerDependencies": {
-    "vuepress": "^1.0.0-alpha.19"
+    "vuepress": "^1.0.0-alpha.44"
   }
 }
