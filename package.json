@@ -2,6 +2,7 @@
   "name": "vuepress-plugin-nprogress",
   "version": "1.0.0",
   "description": "nprogress plugin for Vuepress",
+  "main": "lib/index.js",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "license": "MIT",
   "keywords": [
@@ -17,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/vuepress/vuepress-plugin-nprogress/issues"
   },
-  "main": "lib/index.js",
   "scripts": {
     "dev": "vuepress dev --temp .temp",
     "build": "vuepress build --dest docs-dist --temp .temp",
