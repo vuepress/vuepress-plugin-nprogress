@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-nprogress",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "nprogress plugin for Vuepress",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "license": "MIT",
