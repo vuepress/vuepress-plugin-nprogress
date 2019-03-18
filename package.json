@@ -9,13 +9,13 @@
     "plugin",
     "nprogress"
   ],
-  "homepage": "https://github.com/meteorlxy/vuepress-plugin-nprogress",
+  "homepage": "https://github.com/vuepress/vuepress-plugin-nprogress",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meteorlxy/vuepress-plugin-nprogress.git"
+    "url": "git+https://github.com/vuepress/vuepress-plugin-nprogress.git"
   },
   "bugs": {
-    "url": "https://github.com/meteorlxy/vuepress-plugin-nprogress/issues"
+    "url": "https://github.com/vuepress/vuepress-plugin-nprogress/issues"
   },
   "main": "lib/index.js",
   "scripts": {
