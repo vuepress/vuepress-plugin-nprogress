@@ -1,7 +1,7 @@
 {
   "name": "vuepress-plugin-nprogress",
   "version": "1.0.0",
-  "description": "nprogress plugin for Vuepress",
+  "description": "nprogress plugin for VuePress",
   "main": "lib/index.js",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "license": "MIT",
@@ -19,8 +19,6 @@
     "url": "https://github.com/vuepress/vuepress-plugin-nprogress/issues"
   },
   "scripts": {
-    "dev": "vuepress dev --temp .temp",
-    "build": "vuepress build --dest docs-dist --temp .temp",
     "lint": "eslint --fix --ext .js,.vue ."
   },
   "husky": {
@@ -45,8 +43,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "husky": "^1.1.3",
-    "lint-staged": "^8.0.4",
-    "vuepress": "^1.0.0-alpha.44"
+    "lint-staged": "^8.0.4"
   },
   "peerDependencies": {
     "vuepress": "^1.0.0-alpha.44"
