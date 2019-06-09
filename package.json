@@ -19,7 +19,8 @@
     "url": "https://github.com/vuepress/vuepress-plugin-nprogress/issues"
   },
   "scripts": {
-    "lint": "eslint --fix --ext .js,.vue ."
+    "lint": "eslint --fix --ext .js,.vue .",
+    "publish": "git push origin master:master --tags"
   },
   "husky": {
     "hooks": {
@@ -38,10 +39,10 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-vuepress": "^0.0.2",
-    "husky": "^2.3.0",
-    "lint-staged": "^8.1.7"
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0"
   },
   "peerDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^1.0.0"
   }
 }
