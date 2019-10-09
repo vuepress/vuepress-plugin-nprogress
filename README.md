@@ -1,5 +1,7 @@
 # [vuepress-plugin-nprogress](https://vuepress.github.io/plugins/nprogress.html)
 
+> Migrated to [vuepress-community](https://github.com/vuepress/vuepress-community)
+
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-nprogress.svg)](https://www.npmjs.com/package/vuepress-plugin-nprogress)
 [![GitHub](https://img.shields.io/github/license/vuepress/vuepress-plugin-nprogress.svg)](https://github.com/vuepress/vuepress-plugin-nprogress/blob/master/LICENSE)
 
